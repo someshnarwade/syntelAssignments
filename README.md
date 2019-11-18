@@ -1,7 +1,9 @@
-Hello, this repository contains Java Assignments.
+Hello, this repository contains **Java Assignments.**
  - Assignment no. 2 is in a folder named Pyramid
  - Assignment no. 3 is in a folder named Calculator
  - Assignment no. 4 is in a folder named Arrays
+ 
+ **Don't clone this repository directly if you want to contribute to it**
  
 To contribute to this repository, click the fork button on the top right of your screen.
 
