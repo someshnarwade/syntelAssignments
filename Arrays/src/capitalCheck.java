@@ -18,4 +18,12 @@ public class capitalCheck {
 		}		
 		return counter;
 	}
+	
+	public ArrayList<String> convert(ArrayList<String> another)
+	{
+		// Write code for converting 'a' to 'b' and 'c' with 'x' here
+			
+			
+		return general;
+	}
 }

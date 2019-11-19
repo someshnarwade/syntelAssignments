@@ -25,6 +25,10 @@ public class arrayManipulation {
 		System.out.print("in your sentence is ");
 		System.out.println(count);
 		
+		arrList = cc.convert(arrList);
+		
+		System.out.println(arrList);
+		
 	}
 
 }
