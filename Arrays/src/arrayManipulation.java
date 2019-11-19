@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class arrayManipulation {
@@ -35,6 +36,12 @@ public class arrayManipulation {
 			System.out.print(" ");
 		}
 		
+		String[] unsorted = new String[] {"Mumbai","mumBAI","MuMBaI","mumbaI","MUMBAi","MUmbai","mumbaI"};
+		Arrays.sort(unsorted);
+		for(int i = 0; i< unsorted.length; i++) 
+		{
+			System.out.println(unsorted[i]);
+		}
 	}
 
 }
