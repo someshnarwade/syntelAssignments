@@ -35,13 +35,34 @@ public class arrayManipulation {
 			System.out.print(a);
 			System.out.print(" ");
 		}
+		System.out.println();
+		System.out.println();
 		
 		String[] unsorted = new String[] {"Mumbai","mumBAI","MuMBaI","mumbaI","MUMBAi","MUmbai","mumbaI"};
+		String[] sorted = new String[] {"Mumbai","mumBAI","MuMBaI","mumbaI","MUMBAi","MUmbai","mumbaI"};
+		
 		Arrays.sort(unsorted);
-		for(int i = 0; i< unsorted.length; i++) 
-		{
-			System.out.println(unsorted[i]);
-		}
+		
+		System.out.println("Sorted using java predefined library:");
+		System.out.println(Arrays.toString(unsorted));
+		System.out.println();
+		
+		int size = sorted.length;
+		
+		for(int i = 0; i<size-1; i++) {
+	         for (int j = i+1; j<sorted.length; j++) {
+	            if(sorted[i].compareTo(sorted[j])>0) {
+	               String temp = sorted[i];
+	               sorted[i] = sorted[j];
+	               sorted[j] = temp;
+	            }
+	         }
+	      }
+		
+		
+		System.out.println("Sorted using own method:");
+	    System.out.println(Arrays.toString(sorted));
+		
 	}
 
 }
