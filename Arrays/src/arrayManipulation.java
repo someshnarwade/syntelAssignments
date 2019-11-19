@@ -27,7 +27,13 @@ public class arrayManipulation {
 		
 		arrList = cc.convert(arrList);
 		
-		System.out.println(arrList);
+		System.out.println("The converted sentence is :");
+		
+		for(String a: arrList) 
+		{
+			System.out.print(a);
+			System.out.print(" ");
+		}
 		
 	}
 
